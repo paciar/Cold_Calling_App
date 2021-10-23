@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalledLogActivity"
+    android:background="@drawable/cold_calling_log_background">
+
+    <TextView
+        android:id="@+id/called_log_header"
+        android:text="@string/called_Log_header"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        ></TextView>
+
+    <ListView
+        android:id="@+id/called_log"
+        android:layout_below="@id/called_log_header"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        ></ListView>
+
+</RelativeLayout>

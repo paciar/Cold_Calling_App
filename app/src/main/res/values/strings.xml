@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cold Calling App</string>
+    <string name="randomize_button">Randomize</string>
+
+    <string name="student_name"><font size="22">Student: </font></string>
+
+    <string name="called_Log_header"><font size="22">Called Log</font></string>
+    <string name="uncalled_Log_header"><font size="22">Uncalled Log</font></string>
+</resources>
